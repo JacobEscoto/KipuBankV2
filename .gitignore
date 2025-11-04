@@ -1,0 +1,9 @@
+.deps/
+artifacts/
+artifacts/build-info/
+.prettierrc.json
+remix.config.json
+*.log
+*.tmp
+*.swp
+.DS_Store
