@@ -1,6 +1,6 @@
 # Smart Contract - KipuBank
 **🎯 Objetivo**<br/>
-Este smart contract esta diseñado para depositar ETH, al igual que retirar fondos en distintos tokens, como ETH y tokens ERC-20.
+Este smart contract esta diseñado para depositar y retirar fondos en distintos tokens, como ETH y tokens ERC-20.
 
 ## Funcionalidades del Contrato
 - Depositar ETH y ERC-20
@@ -46,3 +46,4 @@ Si deseas trabajar con el código fuente:
 git clone https://github.com/JacobEscoto/KipuBankV2.git
 cd KipuBankV2
 ```
+
