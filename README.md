@@ -25,20 +25,19 @@ Este smart contract esta diseñado para depositar y retirar fondos en distintos 
 - **NOTA:** Si estas utilizando un Injected Provider (Metamask, Rainbow, etc) deberás confirmar la transacción en tu wallet
 
 ## Interacción con el Contrato
-- **Agregar Token:**
- - Esta función solo es permitida para **ADMIN_ROLE**
- - Parámetros ⇒ Dirección del token, Decimales del token y Dirección del Feed
-- **Depositar:**
- - Selecciona tu cuenta y el token a depositar
- - Escribe la cantidad a depositar y haz click en `depositETH` o `depositERC20`
- - **OJO:** Se verifica que no hayas excedido el bankCap
-- **Retirar / Withdraw:**
- - Escribe la cantidad y token a retirar
- - **OJO:** Se hacen respectivas validaciones de que la cantidad no sea cero, ni mayor al limite de retiros y que exceda el balance actual del usuario
-- **Ver Balance:**
- - Escribe la dirección del usuario y el token
- - Devolverá el balance en **WEI** o en token **ERC-20**
-
+1. **Agregar Token:**
+   - Esta función solo es permitida para **ADMIN_ROLE**
+   - Parámetros ⇒ Dirección del token, Decimales del token y Dirección del Feed
+2. **Depositar:**
+   - Selecciona tu cuenta y el token a depositar
+   - Escribe la cantidad a depositar y haz click en `depositETH` o `depositERC20`
+   - **OJO:** Se verifica que no hayas excedido el bankCap
+3. **Retirar / Withdraw:**
+   - Escribe la cantidad y token a retirar
+   - **OJO:** Se hacen respectivas validaciones de que la cantidad no sea cero, ni mayor al limite de retiros y que exceda el balance actual del usuario
+4. **Ver Balance:**
+   - Escribe la dirección del usuario y el token
+   - Devolverá el balance en **WEI** o en token **ERC-20**
 
 ## Adicional
 Si deseas trabajar con el código fuente:
@@ -46,4 +45,5 @@ Si deseas trabajar con el código fuente:
 git clone https://github.com/JacobEscoto/KipuBankV2.git
 cd KipuBankV2
 ```
+
 
